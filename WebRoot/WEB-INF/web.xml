@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>BeautyRankingServer</display-name>
+  <servlet>
+    <servlet-name>BeautyRankingLogin</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.BeautyRankingLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadPhotoServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.DownLoadPhotoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetNewPage</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.GetNewPage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetRisePage</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.GetRisePage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSumPage</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>org.wheat.beautyRanking.servlet.GetSumPage</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>BeautyRankingLogin</servlet-name>
+    <url-pattern>/servlet/BeautyRankingLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterUserServlet</servlet-name>
+    <url-pattern>/servlet/RegisterUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadPhotoServlet</servlet-name>
+    <url-pattern>/servlet/DownLoadPhotoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewPage</servlet-name>
+    <url-pattern>/servlet/GetNewPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRisePage</servlet-name>
+    <url-pattern>/servlet/GetRisePage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSumPage</servlet-name>
+    <url-pattern>/servlet/GetSumPage</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
