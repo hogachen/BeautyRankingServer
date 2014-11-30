@@ -1,0 +1,2 @@
+BeautyRankingServer  for app server
+===================
